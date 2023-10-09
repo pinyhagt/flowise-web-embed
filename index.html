@@ -8,6 +8,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <script type="module">
+      import Chatbot from "https://cdn.jsdelivr.net/gh/pinyhagt/FlowiseChatEmbed@latest/dist/web.js"
+      Chatbot.init({
+          chatflowid: "b92aa311-eac5-4a85-bdeb-6d2adfdb7f76",
+          apiHost: "http://20.237.76.147:3000",
+      })
+  </script>
+  
     <div class="container mx-auto px-4 max-w-4xl">
       <header class="flex justify-between py-6">
         <div class="text-2xl font-bold">Flowers`R`Us 🌷</div>
